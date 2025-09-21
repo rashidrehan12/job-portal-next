@@ -6,7 +6,7 @@ function SignIn() {
   return (
     <section className='w-full h-screen flex justify-center items-center'>
      <div>
-        <AuthForm origin="SignUp" />
+        <AuthForm origin="signUp" />
      </div>
     </section>
   )
