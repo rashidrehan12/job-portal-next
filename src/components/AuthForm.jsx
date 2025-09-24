@@ -6,7 +6,7 @@ import { Button } from "./ui/button";
 import Link from "next/link";
 import { signIn } from "next-auth/react";
 
-export default function AuthForm({ origin = "SignIn" }) {
+export default function AuthForm({ origin = "signIn" }) {
     const handleLogin = async () => {
         try {
             await signIn("google")

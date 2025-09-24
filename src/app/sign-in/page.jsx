@@ -5,7 +5,9 @@ import AuthForm from '@/components/AuthForm'
 function SignIn() {
   return (
     <section className='w-full h-screen flex justify-center items-center'>
-       <AuthForm origin="SignIn" /> 
+       <div>
+        <AuthForm origin="signIn" /> 
+       </div>
     </section>
   )
 }
